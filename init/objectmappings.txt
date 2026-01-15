@@ -6,3 +6,4 @@ max define slecm.stereocomp~ bpatcher @name slecm.stereocomp~;
 max define slecm.envmeter~ bpatcher @name slecm.envmeter~;
 max define slecm.loudness~ bpatcher @name slecm.loudness~;
 max define slecm.channel~ bpatcher @name slecm.channel~;
+max define slecm.seq.16step~ bpatcher @name slecm.seq.16step~;
