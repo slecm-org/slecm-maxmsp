@@ -9,11 +9,22 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 515.0, 87.0, 493.0, 779.0 ],
+        "rect": [ 34.0, 87.0, 1372.0, 779.0 ],
         "openinpresentation": 1,
         "gridsnaponopen": 2,
         "objectsnaponopen": 0,
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-58",
+                    "maxclass": "newobj",
+                    "numinlets": 2,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "patching_rect": [ 135.0, 15.0, 60.0, 22.0 ],
+                    "text": "route rate"
+                }
+            },
             {
                 "box": {
                     "id": "obj-43",
@@ -405,17 +416,6 @@
             },
             {
                 "box": {
-                    "id": "obj-6",
-                    "maxclass": "newobj",
-                    "numinlets": 1,
-                    "numoutlets": 1,
-                    "outlettype": [ "" ],
-                    "patching_rect": [ 270.0, 135.0, 70.0, 22.0 ],
-                    "text": "loadmess 1"
-                }
-            },
-            {
-                "box": {
                     "id": "obj-3",
                     "maxclass": "newobj",
                     "numinlets": 2,
@@ -544,7 +544,7 @@
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
-                    "outlettype": [ "signal" ],
+                    "outlettype": [ "" ],
                     "patching_rect": [ 15.0, 15.0, 30.0, 30.0 ]
                 }
             },
@@ -764,7 +764,7 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-52", 0 ],
+                    "destination": [ "obj-58", 0 ],
                     "source": [ "obj-19", 5 ]
                 }
             },
@@ -992,15 +992,13 @@
             {
                 "patchline": {
                     "destination": [ "obj-15", 0 ],
-                    "order": 0,
-                    "source": [ "obj-6", 0 ]
+                    "source": [ "obj-58", 0 ]
                 }
             },
             {
                 "patchline": {
-                    "destination": [ "obj-5", 0 ],
-                    "order": 1,
-                    "source": [ "obj-6", 0 ]
+                    "destination": [ "obj-52", 0 ],
+                    "source": [ "obj-58", 1 ]
                 }
             },
             {
