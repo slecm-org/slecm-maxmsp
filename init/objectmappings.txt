@@ -10,3 +10,9 @@ max define slecm.seq.16step~ bpatcher @name slecm.seq.16step~;
 max define slecm.scale~ bpatcher @name slecm.scale~;
 max define slecm.gen.kick~ gen~ @gen slecm.kick;
 max define slecm.seq.func~ bpatcher @name slecm.seq.func~;
+max define slecm.ctrlbox~ bpatcher @name slecm.ctrlbox~;
+max define slecm.granular2~ bpatcher @name slecm.granular2~;
+max define slecm.seq.OSC bpatcher @name slecm.seq.OSC;
+max define slecm.clock32 bpatcher @name slecm.clock32;
+max define slecm.textfunc bpatcher @name slecm.textfunc;
+max define slecm.fluid.noveltyslice~ bpatcher @name slecm.fluid.noveltyslice~
